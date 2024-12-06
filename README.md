@@ -47,7 +47,7 @@
 
 ![не найдено](https://github.com/user-attachments/assets/112cb938-065e-4940-b882-b03f5cff3628)
 
-# *Пример "шумных данных"*
+# *Пример когда на изображении присутствует "шум"*
 
 ![шум1](https://github.com/user-attachments/assets/79c8a4ca-8a3c-4457-99c9-bef0e65406c0)
 
