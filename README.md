@@ -12,23 +12,25 @@
 2. Установить необходимые зависимости (requirements.txt) (pip install ultralytics fastapi uvicorn python-multipart opencv-python).
 3. Прописать в терминале команду python -m uvicorn app:app --reload (или uvicorn app:app --reload может по разному работать на разных версиях).
 4. В терминале появится ссылка на http://127.0.0.1:8000/ перейти по ней и далее открывается окно для загрузки фото и видео, после загрузки выводится результат детекции.
-5. Папка uploads создаётся автоматически.
+5. Папка static создаётся автоматически.
 
 ## Пример использования программы:
 
 # *Интерфейс*
 
-![interface](https://github.com/user-attachments/assets/caec3db5-443f-41c8-a4ef-abd09082dee9)
+![главный экран](https://github.com/user-attachments/assets/f2258ac2-3031-4430-a9d1-c13fb1108e93)
+
 
 # *Детекция на видео*
-
-![video1](https://github.com/user-attachments/assets/ac222980-0807-4263-b8b3-2e13702b8241)
-![video2](https://github.com/user-attachments/assets/17348717-4c32-49aa-b499-cd19c0442dc5)
+![видео](https://github.com/user-attachments/assets/fe6f4d19-addf-4609-9f6b-257cf26597cc)
+![видео 2](https://github.com/user-attachments/assets/d2f73845-3d77-4f64-9538-b822ee26d68b)
 
 # *Детекция на фото*
 
-![image1](https://github.com/user-attachments/assets/af38ffdb-4542-407a-b216-eb5ec4c577b8)
-![image4](https://github.com/user-attachments/assets/54f314e1-2e98-44f9-8e27-dde6fd1714bf)
+![пингвин](https://github.com/user-attachments/assets/a02ed05c-6e30-48dd-9c0e-75d6bf3ee9eb)
+![Зебра](https://github.com/user-attachments/assets/8c293e97-014f-4d4f-97dd-398f6dd633da)
+![птицы](https://github.com/user-attachments/assets/f28b3b00-5556-4b15-b1f6-3beaa1685678)
+![кошки1](https://github.com/user-attachments/assets/359fbd5e-0ec8-4959-bb22-537799baab14)
 
 
 # Примеры, когда на фото присутствуют животные кроме собак кошек и птиц, т.е. один из классов не должен быть обнаружен:
@@ -37,15 +39,15 @@
 ![image3](https://github.com/user-attachments/assets/16c82f13-9af8-4039-8ca8-b5b2f65a7b85)
 
 # Пример, когда на фото присутствуют сразу несколько классов:
+![много классов](https://github.com/user-attachments/assets/d17bdaf9-de12-4cd1-ada8-b12871d7314c)
 
-![image5](https://github.com/user-attachments/assets/2c6ffb7b-a30d-44c6-9600-d4828ca4ae57)
-![image2](https://github.com/user-attachments/assets/a63ce2f4-3983-4811-83b8-5110c4b41619)
+![животные](https://github.com/user-attachments/assets/f0b42c4d-c83e-40ff-a7c9-a3f4c3a7d030)
+
 
 # *Примеры, когда на закруженных данных нет класса для обнаружения, детекция отсутствует*
 
-![not_detected1](https://github.com/user-attachments/assets/8e5f6980-eb2a-439e-8b22-a8d18c0d42da)
+![не найдено](https://github.com/user-attachments/assets/112cb938-065e-4940-b882-b03f5cff3628)
 
-![not_detected2](https://github.com/user-attachments/assets/aaaba311-950a-49a9-bf84-a20079816afc)
 
 
 
